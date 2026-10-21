@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+yfinance
+requests
+pandas
+numpy
+pytz
+matplotlib
+mplfinance
+tensorflow
+scikit-learn

@@ -115,7 +115,7 @@ def check_macro_correlation():
 
 # --- AI LSTM ---
 AI_MODEL, AI_SCALER_X, AI_SCALER_Y = None, None, None
-def initialize_ai_system():
+ # def initialize_ai_system():
     global AI_MODEL, AI_SCALER_X, AI_SCALER_Y
     if not AI_AVAILABLE: return
     print("🧠 กำลังสอน AI...")
@@ -138,6 +138,7 @@ def initialize_ai_system():
     print("✅ AI พร้อมใช้งาน!")
 
 def predict_ai_target(df_1h):
+    return None
     if not AI_MODEL: return None
     try:
         live = df_1h.tail(24)[['Close','Volume']].copy()

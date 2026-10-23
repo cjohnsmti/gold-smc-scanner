@@ -7,5 +7,3 @@ numpy
 pytz
 matplotlib
 mplfinance
-tensorflow
-scikit-learn
